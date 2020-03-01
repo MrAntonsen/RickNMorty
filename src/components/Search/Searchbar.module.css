@@ -1,0 +1,10 @@
+.search {
+	display: flex;
+	background-color: brown !important;
+}
+.input {
+	width: 30vw;
+}
+.btn-search {
+	width: 20vw;
+}

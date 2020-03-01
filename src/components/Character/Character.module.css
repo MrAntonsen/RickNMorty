@@ -1,0 +1,17 @@
+.CharacterCard {
+	text-align: center;
+	border-radius: 25px;
+	background: linear-gradient(to left, rgba(20, 15, 15, 0.822), rgba(3, 1, 1, 0.917)) !important;
+	color: rgb(235, 235, 235);
+	margin: 1rem;
+	border: 5px solid black !important;
+}
+.CharacterCardImage {
+	border-radius: 10rem;
+}
+@media only screen and (width: 1024px) {
+	.CharacterCard {
+		width: 40vw;
+		margin: 0;
+	}
+}
