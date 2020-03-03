@@ -18,7 +18,7 @@ function Character(props) {
       />
       <Card.Body>
         <Card.Title>{props.char.name}</Card.Title>
-        <Card.Text>{props.char.id}</Card.Text>
+        <Card.Text>{props.char.species}</Card.Text>
         <Link
           to={`/characters/${props.char.id}`}
           className='btn btn-dark btn-sm my-1'>
