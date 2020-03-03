@@ -1,11 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter&display=swap");
 .container {
-	background-color: darkgray;
+  background-color: darkgray;
+  padding: 2rem;
 }
 img {
-	max-width: 40vw;
-	max-height: 70vh;
-	border: 4px solid black;
+  max-width: 40vw;
+  max-height: 70vh;
+  border: 4px solid black;
 }
 .card {
-	border: 4px solid black;
+  border: 4px solid black;
+}
+.charName {
+  font-size: 4.5rem;
+}
+.CharTitle {
+  font-family: "Bitter", serif;
+}
+.origin,
+.species,
+.gender,
+.status {
+  font-family: "Bitter", serif;
+}
+.status {
+  color: #87bba2;
+}
+.species {
+  color: #55828b;
+}
+.gender {
+  color: #3b6064;
+}
+.origin {
+  color: #364958;
+}
+@media only screen and (max-width: 991px) {
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .col-sm-3 {
+    border-bottom: 5px dashed #4e4a4a;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+  }
 }
